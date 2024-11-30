@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load raw dataset
-data = pd.read_csv("/Users/choihyeseon/Desktop/열심히 하자/recommandation/skin_care_recommendations_raw_dataset.csv")
+data = pd.read_csv("skin_care_recommendations_raw_dataset.csv")
 
 # Define mappings for keywords and recommendations
 keywords_mapping = {
